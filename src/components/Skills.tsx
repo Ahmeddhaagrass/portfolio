@@ -1,4 +1,4 @@
-import { Code2, Database, Globe, Layers, Server, Smartphone, Terminal, Wrench } from 'lucide-react';
+import { Code2, Database, Globe, Layers, Server, Terminal, Wrench } from 'lucide-react';
 
 const categories = [
   {
@@ -7,7 +7,7 @@ const categories = [
     color: 'text-cyan-400',
     bg: 'bg-cyan-400/10',
     border: 'border-cyan-400/20',
-    skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'GraphQL'],
+    skills: ['React.js', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
   },
   {
     icon: Server,
@@ -15,7 +15,15 @@ const categories = [
     color: 'text-teal-400',
     bg: 'bg-teal-400/10',
     border: 'border-teal-400/20',
-    skills: ['Node.js', 'Express', 'Python', 'FastAPI', 'REST APIs', 'WebSockets'],
+    skills: ['Node.js', 'ASP.NET Core', 'REST APIs', 'Python', 'Express'],
+  },
+  {
+    icon: Code2,
+    title: 'AI & Machine Learning',
+    color: 'text-violet-400',
+    bg: 'bg-violet-400/10',
+    border: 'border-violet-400/20',
+    skills: ['PyTorch', 'Scikit-learn', 'YOLO', 'CNNs', 'Feature Engineering', 'EDA'],
   },
   {
     icon: Database,
@@ -23,7 +31,7 @@ const categories = [
     color: 'text-emerald-400',
     bg: 'bg-emerald-400/10',
     border: 'border-emerald-400/20',
-    skills: ['PostgreSQL', 'MongoDB', 'Redis', 'Supabase', 'Prisma', 'MySQL'],
+    skills: ['PostgreSQL', 'MySQL', 'SQL Server', 'MongoDB'],
   },
   {
     icon: Layers,
@@ -31,32 +39,24 @@ const categories = [
     color: 'text-sky-400',
     bg: 'bg-sky-400/10',
     border: 'border-sky-400/20',
-    skills: ['Docker', 'AWS', 'Vercel', 'GitHub Actions', 'CI/CD', 'Nginx'],
-  },
-  {
-    icon: Smartphone,
-    title: 'Mobile',
-    color: 'text-blue-400',
-    bg: 'bg-blue-400/10',
-    border: 'border-blue-400/20',
-    skills: ['React Native', 'Expo', 'PWA', 'Responsive Design', 'App Store', 'Play Store'],
+    skills: ['Docker', 'Jenkins', 'GitHub Actions', 'CI/CD', 'Git'],
   },
   {
     icon: Wrench,
-    title: 'Tools',
+    title: 'Practices & Tools',
     color: 'text-slate-400',
     bg: 'bg-slate-400/10',
     border: 'border-slate-400/20',
-    skills: ['Git', 'VS Code', 'Figma', 'Postman', 'Jira', 'Linear'],
+    skills: ['Agile', 'Scrum', 'OOP', 'System Design', 'Figma', 'Jira'],
   },
 ];
 
 const proficiencies = [
-  { label: 'React / Next.js', pct: 95 },
-  { label: 'TypeScript', pct: 90 },
-  { label: 'Node.js / Express', pct: 88 },
-  { label: 'PostgreSQL', pct: 82 },
-  { label: 'AWS / Cloud', pct: 75 },
+  { label: 'React.js / Full-Stack', pct: 90 },
+  { label: 'Python / ML', pct: 85 },
+  { label: 'Node.js / REST APIs', pct: 88 },
+  { label: 'SQL / Databases', pct: 82 },
+  { label: 'TypeScript', pct: 85 },
 ];
 
 export default function Skills() {
@@ -125,7 +125,7 @@ export default function Skills() {
 
           <div className="mt-6 pt-6 border-t border-slate-700 flex items-center gap-2 text-slate-500 text-xs">
             <Terminal size={13} />
-            <span>Always learning • Currently exploring Rust and AI/ML engineering</span>
+            <span>Always learning • Targeting Software Engineering & AI roles at IBM and enterprise tech</span>
           </div>
         </div>
       </div>

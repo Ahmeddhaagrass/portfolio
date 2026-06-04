@@ -1,10 +1,10 @@
 import { Calendar, MapPin, Download } from 'lucide-react';
 
 const stats = [
-  { value: '1', label: 'Years Experience' },
-  { value: '40+', label: 'Projects Completed' },
-  { value: '20+', label: 'Happy Clients' },
-  { value: '10+', label: 'Open Source Contributions' },
+  { value: '2:1', label: 'Degree Classification' },
+  { value: '40+', label: 'Projects Supported (GPS)' },
+  { value: '45%', label: 'Quotation Time Saved' },
+  { value: '6+', label: 'Featured GitHub Projects' },
 ];
 
 export default function About() {
@@ -32,15 +32,17 @@ export default function About() {
           <div>
             <p className="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-3">About Me</p>
             <h2 className="text-4xl font-bold text-slate-100 mb-6 leading-tight">
-              Crafting digital experiences with purpose
+              Software engineer focused on impact
             </h2>
 
             <div className="space-y-4 text-slate-400 leading-relaxed mb-8">
               <p>
-                I am a software engineer based in Cairo with hands-on experience in full-stack development and AI-enabled systems, focused on building practical, maintainable products.
+                I am a Software Engineering graduate from Nottingham Trent University with experience in
+                full-stack development, machine learning, and workflow automation — based in Cairo, Egypt.
               </p>
               <p>
-                My work combines clean architecture, solid backend engineering, and product-focused frontend delivery across business systems, smart applications, and machine learning projects.
+                I build products that solve real problems: AI aquaculture systems, enterprise project platforms,
+                ML salary models, and mobile applications — with clean code, strong documentation, and Agile delivery.
               </p>
             </div>
 

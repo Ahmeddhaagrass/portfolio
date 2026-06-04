@@ -30,7 +30,7 @@ const projects: Project[] = [
       'https://images.pexels.com/photos/3802508/pexels-photo-3802508.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['Web', 'Luxury retail', 'Responsive', 'Showroom'],
     live: null,
-    repo: null,
+    repo: 'https://github.com/Ahmeddhaagrass/egzoti_demo',
     featured: true,
   },
   {
@@ -41,7 +41,8 @@ const projects: Project[] = [
       'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['React.js', 'Node.js', 'PostgreSQL', 'RBAC', 'JWT'],
     live: null,
-    repo: null,
+    repo: 'https://github.com/Ahmeddhaagrass/portfolio',
+    featured: true,
   },
   {
     title: 'Future Fridges Mobile App',
@@ -51,7 +52,8 @@ const projects: Project[] = [
       'https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['Mobile', 'Agile', 'Figma', 'Testing'],
     live: null,
-    repo: null,
+    repo: 'https://github.com/Ahmeddhaagrass/-ffsmart-fridge-app',
+    featured: true,
   },
   {
     title: 'Aquaculture Food Management & Waste Reduction',
@@ -62,6 +64,7 @@ const projects: Project[] = [
     tags: ['Python', 'AI', 'Sustainability', 'Aquaculture'],
     live: null,
     repo: 'https://github.com/Ahmeddhaagrass/FeedWise-Fish-Feeding-Efficiency-Waste-Reduction',
+    featured: true,
   },
   {
     title: 'Event Booking Web System',
@@ -71,7 +74,8 @@ const projects: Project[] = [
       'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['Full Stack', 'Authentication', 'REST APIs'],
     live: null,
-    repo: null,
+    repo: 'https://github.com/Ahmeddhaagrass/meal_to_meal',
+    featured: true,
   },
   {
     title: 'Developer Salary Clustering & Classification',
@@ -81,7 +85,8 @@ const projects: Project[] = [
       'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['Python', 'CRISP-DM', 'K-Means', 'Random Forest', 'EDA'],
     live: null,
-    repo: null,
+    repo: 'https://github.com/Ahmeddhaagrass/AI-CRSWRK',
+    featured: true,
   },
   {
     title: 'Personal Portfolio Website',
@@ -91,7 +96,7 @@ const projects: Project[] = [
       'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['React', 'TypeScript', 'Tailwind CSS', 'Responsive UI'],
     live: null,
-    repo: null,
+    repo: 'https://github.com/Ahmeddhaagrass/portfolio',
     featured: true,
   },
 ];
