@@ -83,6 +83,17 @@ src/
 
 ---
 
+## Screenshots
+
+> Screenshots coming soon — add site screenshots to `docs/screenshots/`.
+
+<!-- Example:
+![Homepage](./docs/screenshots/home.png)
+![Projects section](./docs/screenshots/projects.png)
+-->
+
+---
+
 ## Deployment
 
 Deploy to **Vercel**, **Netlify**, or **GitHub Pages**:
