@@ -1,4 +1,4 @@
-import { Code2, Database, Globe, Layers, Server, Terminal, Wrench } from 'lucide-react';
+import { Code2, Database, Globe, Layers, Server, Smartphone, Terminal, Wrench } from 'lucide-react';
 
 const categories = [
   {
@@ -10,12 +10,20 @@ const categories = [
     skills: ['React.js', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
   },
   {
+    icon: Smartphone,
+    title: 'Mobile',
+    color: 'text-blue-400',
+    bg: 'bg-blue-400/10',
+    border: 'border-blue-400/20',
+    skills: ['Flutter', 'Mobile Development', 'Figma', 'Agile', 'User Testing'],
+  },
+  {
     icon: Server,
     title: 'Backend',
     color: 'text-teal-400',
     bg: 'bg-teal-400/10',
     border: 'border-teal-400/20',
-    skills: ['Node.js', 'ASP.NET Core', 'REST APIs', 'Python', 'Express'],
+    skills: ['Node.js', 'ASP.NET Core', 'REST APIs', 'JWT', 'RBAC', 'Express'],
   },
   {
     icon: Code2,
@@ -23,7 +31,15 @@ const categories = [
     color: 'text-violet-400',
     bg: 'bg-violet-400/10',
     border: 'border-violet-400/20',
-    skills: ['PyTorch', 'Scikit-learn', 'YOLO', 'CNNs', 'Feature Engineering', 'EDA'],
+    skills: ['PyTorch', 'Scikit-learn', 'YOLO', 'CNNs', 'EDA', 'ROC/F1 Analysis'],
+  },
+  {
+    icon: Terminal,
+    title: 'Languages',
+    color: 'text-amber-400',
+    bg: 'bg-amber-400/10',
+    border: 'border-amber-400/20',
+    skills: ['Python', 'JavaScript', 'TypeScript', 'Java', 'C#', 'C++', 'Haskell', 'SQL'],
   },
   {
     icon: Database,
@@ -31,32 +47,32 @@ const categories = [
     color: 'text-emerald-400',
     bg: 'bg-emerald-400/10',
     border: 'border-emerald-400/20',
-    skills: ['PostgreSQL', 'MySQL', 'SQL Server', 'MongoDB'],
+    skills: ['PostgreSQL', 'SQL Server', 'MySQL', 'MongoDB'],
   },
   {
     icon: Layers,
-    title: 'DevOps & Cloud',
+    title: 'DevOps & Tools',
     color: 'text-sky-400',
     bg: 'bg-sky-400/10',
     border: 'border-sky-400/20',
-    skills: ['Docker', 'Jenkins', 'GitHub Actions', 'CI/CD', 'Git'],
+    skills: ['Git', 'Docker', 'Jenkins', 'Jupyter Notebook', 'CI/CD'],
   },
   {
     icon: Wrench,
-    title: 'Practices & Tools',
+    title: 'Practices',
     color: 'text-slate-400',
     bg: 'bg-slate-400/10',
     border: 'border-slate-400/20',
-    skills: ['Agile', 'Scrum', 'OOP', 'System Design', 'Figma', 'Jira'],
+    skills: ['Agile', 'Scrum', 'SDLC', 'OOP', 'DSA', 'System Design'],
   },
 ];
 
 const proficiencies = [
   { label: 'React.js / Full-Stack', pct: 90 },
   { label: 'Python / ML', pct: 85 },
+  { label: 'Flutter / Mobile', pct: 80 },
   { label: 'Node.js / REST APIs', pct: 88 },
   { label: 'SQL / Databases', pct: 82 },
-  { label: 'TypeScript', pct: 85 },
 ];
 
 export default function Skills() {
@@ -67,7 +83,7 @@ export default function Skills() {
           <p className="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-3">Expertise</p>
           <h2 className="text-4xl font-bold text-slate-100 mb-4">Skills & Technologies</h2>
           <p className="text-slate-500 max-w-lg mx-auto">
-            A curated set of tools and technologies I've honed over years of building production-grade software.
+            Full-stack, mobile, and AI skills from internships, final-year research, and production-style project delivery.
           </p>
         </div>
 
@@ -102,7 +118,7 @@ export default function Skills() {
             </div>
             <div>
               <h3 className="text-slate-200 font-semibold">Core Proficiencies</h3>
-              <p className="text-slate-500 text-xs">Based on years of daily use</p>
+              <p className="text-slate-500 text-xs">Aligned with CV & internship delivery</p>
             </div>
           </div>
 
@@ -125,7 +141,7 @@ export default function Skills() {
 
           <div className="mt-6 pt-6 border-t border-slate-700 flex items-center gap-2 text-slate-500 text-xs">
             <Terminal size={13} />
-            <span>Always learning • Targeting Software Engineering & AI roles at IBM and enterprise tech</span>
+            <span>React · Node · Flutter · Haskell · PyTorch — open to graduate software & AI roles</span>
           </div>
         </div>
       </div>

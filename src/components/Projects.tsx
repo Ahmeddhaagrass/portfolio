@@ -36,7 +36,7 @@ const projects: Project[] = [
   {
     title: 'GPS Project Management Platform',
     description:
-      'A full-stack platform built during my internship to manage 40+ modular construction projects, with RBAC, JWT auth, REST APIs, and quotation workflow automation.',
+      'Internship full-stack platform (React.js, Node.js) managing 40+ modular construction projects — PostgreSQL, RBAC, JWT, AI proposal assistant, and quotation automation saving ~40–45% preparation time.',
     image:
       'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['React.js', 'Node.js', 'PostgreSQL', 'RBAC', 'JWT'],
@@ -47,10 +47,10 @@ const projects: Project[] = [
   {
     title: 'Future Fridges Mobile App',
     description:
-      'A team-built smart fridge application focused on inventory visibility, expiry tracking, and day-to-day usability, delivered through Agile collaboration, prototyping, and testing.',
+      'Agile team project: smart fridge app for food inventory visibility and expiry tracking — UI integration, Figma prototyping, validation and acceptance testing.',
     image:
       'https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=800',
-    tags: ['Mobile', 'Agile', 'Figma', 'Testing'],
+    tags: ['Flutter', 'Mobile', 'Agile', 'Figma', 'Testing'],
     live: null,
     repo: 'https://github.com/Ahmeddhaagrass/-ffsmart-fridge-app',
     featured: true,
@@ -58,7 +58,7 @@ const projects: Project[] = [
   {
     title: 'Aquaculture Food Management & Waste Reduction',
     description:
-      'Final-year AI project contribution focused on feeding logic, waste monitoring, and sustainability insights to improve fish farm efficiency and reduce operational loss.',
+      'Led food management and waste reduction for final-year aquaculture AI — feeding logic, portion control, and sustainability goals alongside computer vision for fish behaviour monitoring.',
     image:
       'https://images.pexels.com/photos/2131904/pexels-photo-2131904.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['Python', 'AI', 'Sustainability', 'Aquaculture'],

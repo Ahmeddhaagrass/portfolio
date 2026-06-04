@@ -2,9 +2,9 @@ import { Calendar, MapPin, Download } from 'lucide-react';
 
 const stats = [
   { value: '2:1', label: 'Degree Classification' },
-  { value: '40+', label: 'Projects Supported (GPS)' },
+  { value: '40+', label: 'GPS Projects Managed' },
   { value: '45%', label: 'Quotation Time Saved' },
-  { value: '6+', label: 'Featured GitHub Projects' },
+  { value: '10+', label: 'GitHub Repositories' },
 ];
 
 export default function About() {
@@ -37,12 +37,13 @@ export default function About() {
 
             <div className="space-y-4 text-slate-400 leading-relaxed mb-8">
               <p>
-                I am a Software Engineering graduate from Nottingham Trent University with experience in
-                full-stack development, machine learning, and workflow automation — based in Cairo, Egypt.
+                Software Engineer with hands-on experience in full-stack development and AI-enabled systems.
+                I combine strong engineering fundamentals with practical delivery across business platforms,
+                smart applications, and aquaculture research — based in Cairo, Egypt.
               </p>
               <p>
-                I build products that solve real problems: AI aquaculture systems, enterprise project platforms,
-                ML salary models, and mobile applications — with clean code, strong documentation, and Agile delivery.
+                Comfortable in Agile teams with a focus on clean architecture, maintainable code, and measurable
+                product impact using React, Node.js, Flutter, Haskell, and modern ML tooling.
               </p>
             </div>
 
@@ -50,13 +51,22 @@ export default function About() {
               <div className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-4">
                 <p className="text-teal-400 text-xs font-semibold tracking-wider uppercase mb-1">Education</p>
                 <p className="text-slate-300 text-sm">
-                  BSc (Hons) Software Engineering, 2:1 — Nottingham Trent University (2022 - 2025)
+                  BSc (Hons) Software Engineering, 2:1 — Nottingham Trent University (2022–2025). Course Representative
+                  (final year). Formula Student contributor. Modules: AI/ML, Cloud, Databases, Mobile Dev, Advanced SE.
                 </p>
               </div>
               <div className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-4">
-                <p className="text-teal-400 text-xs font-semibold tracking-wider uppercase mb-1">Experience</p>
+                <p className="text-teal-400 text-xs font-semibold tracking-wider uppercase mb-1">GPS Internship</p>
                 <p className="text-slate-300 text-sm">
-                  Software Developer Intern at Global Project Services (Jun 2024 - Aug 2024) and Machine Learning Intern at Bright Network (Sep 2024 - Oct 2024).
+                  React/Node platform for 40+ projects · PostgreSQL + RBAC + JWT · AI proposal assistant · quotation
+                  automation (~40–45% faster) · REST APIs · Agile/Scrum.
+                </p>
+              </div>
+              <div className="bg-slate-800/50 border border-slate-700/50 rounded-xl p-4">
+                <p className="text-teal-400 text-xs font-semibold tracking-wider uppercase mb-1">Bright Network ML</p>
+                <p className="text-slate-300 text-sm">
+                  SQL/Python data pipelines · PyTorch & Scikit-learn · precision, recall, F1, ROC analysis · Agile
+                  documentation for reproducibility.
                 </p>
               </div>
             </div>

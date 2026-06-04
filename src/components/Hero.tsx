@@ -1,7 +1,7 @@
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
-const roles = ['Software Engineering Graduate', 'Full-Stack Developer', 'AI & ML Enthusiast', 'Cloud & Enterprise Tech'];
+const roles = ['React & Node Full-Stack Developer', 'Flutter Mobile Developer', 'AI & ML Engineer', 'Software Engineering Graduate'];
 
 export default function Hero() {
   const [roleIndex, setRoleIndex] = useState(0);
@@ -59,8 +59,8 @@ export default function Hero() {
         </div>
 
         <p className="text-slate-500 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-          Software Engineering graduate (2:1) building full-stack applications, AI-powered solutions, and
-          enterprise systems with measurable business impact — from aquaculture ML to 40+ project platforms.
+          Software Engineer (BSc 2:1) with experience in React, Node.js, Flutter, and AI/ML — building web platforms,
+          mobile apps, and automation systems with clean architecture and measurable impact.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
